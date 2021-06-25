@@ -127,7 +127,7 @@ include_once './includes/header.php';
 <svg id="icon_mobile" class="rotate-center d-none d-sm-flex" style="position:absolute;margin-left:5rem" xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
   <path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"/>
 </svg>
-<svg id="icon_mobile" class="rotate-center d-none d-sm-flex" style="position:absolute;margin-left:75rem" xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+<svg id="icon_mobile" class="rotate-center d-none d-sm-none d-xl-flex" style="position:absolute;margin-left:75rem" xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-patch-question-fill" viewBox="0 0 16 16">
   <path d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.71 1.71 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627z"/>
 </svg>
     <h1 class="display-2 text-center" style="color:#bb00ff">cOnFuSeD???</h1>
@@ -176,6 +176,68 @@ include_once './includes/header.php';
   </div>
   <div class="col-8 col-sm-6 d-none d-sm-block">
 <h4 class="display-6 text-center" style="color:#bb00ff">Recent</h4>
+<div style="margin-left:11rem">
+<div style="width:300px;height:210px;background-color:#eaeaea;">
+<br>
+</div>
+<b style="color:#bb00ff">Zervos Zamburga</b>
+<p style="margin-right:10rem">Hi there, recenlty had a problem with my screen as you can see its all shaded</p>
+<button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-plus-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm6.5-11a.5.5 0 0 0-1 0V6H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V7H10a.5.5 0 0 0 0-1H8.5V4.5z"/>
+</svg></button>
+<button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+  <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg></button>
+<button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+  <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+</svg></button>
+<ul class="list-group py-2" style="margin-right:5rem">
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Smartass204</b>
+  <p>The issue isn't your screen, the page isn't ready yet! Don't be a fricking dummy!</p>
+  </li>
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Grecko Valklemier</b>
+  <p>Don't be harsh with a guy asking about a simple error. This world isn't for everyone who can take jokes lightly. Some people take it into too much offense</p>
+  </li>
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Zervos Zamburga</b>
+  <p>Hey shut up Grecko, I was enjoying the joke over here</p>
+  </li>
+</ul>
+</div>
+</div>
+<div class="d-block justify-content-center d-sm-none">
+<h2 class="display-4 text-center" style="color:#bb00ff">Recent</h2>
+<div class="" style="width:350px;height:200px;background-color:#eaeaea" >
+<br>
+</div>
+<b style="color:#bb00ff">Zervos Zamburga</b>
+<p style="">Hi there, recenlty had a problem with my screen as you can see its all shaded</p>
+<div class="d-flex justify-content-center py-2">
+<button class="btn btn-primary mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bookmark-plus-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm6.5-11a.5.5 0 0 0-1 0V6H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V7H10a.5.5 0 0 0 0-1H8.5V4.5z"/>
+</svg></button>
+<button class="btn btn-primary mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+  <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg></button>
+<button class="btn btn-primary mx-2"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+  <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+</svg></button></div>
+<ul class="list-group mx-2" style="margin-right:5rem">
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Smartass204</b>
+  <p>The issue isn't your screen, the page isn't ready yet! Don't be a fricking dummy!</p>
+  </li>
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Grecko Valklemier</b>
+  <p>Don't be harsh with a guy asking about a simple error. This world isn't for everyone who can take jokes lightly. Some people take it into too much offense</p>
+  </li>
+  <li class="list-group-item">
+  <b style="color:#bb00ff">Zervos Zamburga</b>
+  <p>Hey shut up Grecko, I was enjoying the joke over here</p>
+  </li>
+</ul>
 </div>
 <div class="col-8 col-sm-2 d-none d-sm-block">
 <h4 class="display-6 text-center" style="color:#bb00ff">Categories</h4>
